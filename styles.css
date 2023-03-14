@@ -1,0 +1,107 @@
+body{
+    margin:10px;
+    padding: 0;
+    background-color: blue;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.new-book-form{
+    margin:20px;
+    padding:60px;
+    width: 150px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.3);
+    border-radius: 10px;
+    border: 2px  solid white;
+}
+
+
+
+label{
+    margin-left: 30%;
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+    
+    
+}
+
+.title input[type="text"]{
+  color:brown;
+  width:400px;
+  height:25px;
+  border-radius: 50px;
+  border:none;
+  margin: 12px 30px;
+  font-size: 15px;
+
+}
+
+.author input[type="text"] {
+    color:brown;
+    width:400px;
+    height:25px;
+    border-radius: 50px;
+    border:none;
+    margin: 12px 30px;
+    font-size: 1rem;
+}
+
+
+.paper input[type="text"] {
+    color:brown;
+    width:400px;
+    height:25px;
+    border-radius: 50px;
+    border:none;
+    margin: 12px 30px;
+    font-size: 1rem;
+}
+
+
+.read input[type="text"] {
+    color:brown;
+    width:400px;
+    height:25px;
+    border-radius: 50px;
+    border:none;
+    margin: 12px 30px;
+    font-size: 1rem;
+}
+
+
+.read input[type="checkbox"] {
+  margin-left: 50%;
+    
+}
+
+input[type='checkbox'] {
+    accent-color: blue;
+}
+
+.add-book{
+padding: 10px 200px;
+background-color: black;
+color:white;
+border-radius: 3px;
+cursor: pointer;
+text-transform: capitalize;
+font-size: 13px;
+ 
+}
+
+.new-book-btn{
+ padding: 20px;
+ font-size:20px;
+ background-color: black;
+ color: white;
+ border-radius: 5px;
+ cursor: pointer;
+
+}
+
+
+
